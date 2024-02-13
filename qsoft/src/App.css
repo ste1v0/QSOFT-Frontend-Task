@@ -88,6 +88,10 @@ form > input {
 	border: none;
 }
 
+input:focus {
+	outline: none;
+  }
+
 @media screen and (max-width: 550px) {
 	form {
 		padding: 1vh 0 0 0;

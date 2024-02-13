@@ -1,0 +1,228 @@
+:root {
+	font-family: 'Roboto', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+header {
+	background: #FFFFFF;
+	display: flex;
+	align-items: center;
+	height: 80px;
+	box-shadow: 0 0 9px #EBEBF1;
+	justify-content: center;
+	padding: 0 3vw;
+}
+
+@media screen and (max-width: 550px) {
+	header {
+		display: flex;
+		height: auto;
+		padding: 0;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	  .header__logo {
+		order: 1;
+	  }
+	
+	  .header__profile-pic {
+		order: 2;
+		margin-left: auto;
+	  }
+	
+	  .header__separator {
+		order: 3;
+	  }
+	
+	  form {
+		order: 4;
+	  }
+}
+
+.header__logo {
+	width: 100%;
+	max-width: 135px;
+	height: 30px;
+	background-image: url('./assets/logo.svg');
+	margin-right: 1vw;
+}
+
+@media screen and (max-width: 768px) {
+	.header__logo {
+		margin: 1.5rem 0 1.5rem 0rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.header__logo {
+		margin: 2vh 0 1vh 5vw;
+	}
+}
+
+.header__search-pic {
+	width: 100%;
+	max-width: 24px;
+	height: 24px;
+	background-image: url('./assets/search.svg');
+}
+
+form {
+	width: 100%;
+	max-width: 835px;
+	display: flex;
+	align-items: center;
+	border: 1px solid #EBEBF1;
+	border-radius: 4px;
+	padding: 0.44rem 0 0.44rem 0.4rem;
+	gap: 0.4rem;
+	margin: 1.5rem 0 1.5rem 3rem;
+}
+
+form > input {
+	width: 100%;
+	border: none;
+}
+
+@media screen and (max-width: 550px) {
+	form {
+		padding: 1vh 0 0 0;
+		border: none;
+		margin: 0 0 1vh 5vw;
+	}
+}
+
+::placeholder {
+	color: #BBC4D6;
+}
+
+.header__separator {
+	height: 100%;
+	border-left: 0px solid #EBEBF1;
+	margin: 0 1.2rem 0 3rem;
+}
+
+@media screen and (max-width: 550px) {
+	.header__separator {
+		width: 100%;
+		margin: 1vh 0 0 0;
+		border: none;
+		border-top: 1px solid #BBC4D6;
+	}
+}
+
+.header__profile-name {
+	font-size: 14px;
+	color: #768298;
+	margin-right: 0.7rem;
+}
+
+@media screen and (max-width: 550px) {
+	.header__profile-name {
+		display: none;
+	}
+}
+
+.header__profile-pic {
+	width: 100%;
+	max-width: 40px;
+	height: 40px;
+	background-image: url('./assets/profile.svg');
+}
+
+@media screen and (max-width: 550px) {
+	.header__profile-pic {
+		width: 100%;
+		max-width: 24px;
+		height: 24px;
+		background-image: url('./assets/profile-mobile.svg');
+		margin: 2vh 5vw 1vh 0;
+	}
+}
+
+main {
+	margin-top: 10vh;
+	padding: 0 3vw;
+}
+
+@media screen and (max-width: 550px) {
+	main {
+		padding: 0 5vw;
+		margin-bottom: 10vh;
+	}
+}
+
+section {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+.hero__heading {
+	text-transform: uppercase;
+	font-size: clamp(1.75rem, 1.179rem + 1.19vw, 2.25rem);
+	color: #121920;
+	font-weight: 500;
+}
+
+.hero__container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: clamp(1rem, -1.2rem + 3.33vw, 1.8rem);
+	margin-top: 4vh;
+}
+
+.hero__item {
+	width: 100%;
+	max-width: clamp(14.313rem, 10.098rem + 8.78vw, 18rem);
+	height: 120px;
+	border: 1px solid #EBEBF1;
+	border-radius: 4px;
+	background-size: cover;
+	background-position: center;
+}
+
+@media screen and (max-width: 550px) {
+	.hero__item {
+		max-width: 335px;
+		height: 140px;
+		margin: 0;
+	}
+}
+
+.hero__item:hover {
+	cursor: pointer;
+	box-shadow: 0 0 9px #EBEBF1;
+	border: none;
+}
+
+.one {
+	background-image: url('https://placehold.co/230x62')
+}
+
+.two {
+	background-image: url('https://placehold.co/234x60')
+}
+
+.three {
+	background-image: url('https://placehold.co/240x55')
+}
+
+.four {
+	background-image: url('https://placehold.co/249x57')
+}
+
+.five {
+	background-image: url('https://placehold.co/255x51')
+}
+
+.six {
+	background-image: url('https://placehold.co/237x59')
+}
+
+.seven {
+	background-image: url('https://placehold.co/234x64')
+}

@@ -5,13 +5,13 @@ export default function Hero() {
 				<section>
 					<h4 className="hero__heading">Наши партнёры</h4>
 					<div className="hero__container">
-						<div className="hero__item one" />
-						<div className="hero__item two" />
-						<div className="hero__item three" />
-						<div className="hero__item four" />
-						<div className="hero__item five" />
-						<div className="hero__item six" />
-						<div className="hero__item seven" />
+						<div className="hero__item pointer one" />
+						<div className="hero__item pointer two" />
+						<div className="hero__item pointer three" />
+						<div className="hero__item pointer four" />
+						<div className="hero__item pointer five" />
+						<div className="hero__item pointer six" />
+						<div className="hero__item pointer seven" />
 					</div>
 				</section>
 			</main>

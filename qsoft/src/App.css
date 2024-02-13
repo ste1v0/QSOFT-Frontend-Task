@@ -7,6 +7,10 @@
 	margin: 0;
 }
 
+.pointer {
+	cursor: pointer;
+}
+
 header {
 	background: #FFFFFF;
 	display: flex;
@@ -198,8 +202,7 @@ section {
 }
 
 .hero__item:hover {
-	cursor: pointer;
-	box-shadow: 0 0 9px #EBEBF1;
+	box-shadow: 0px 0px 9px #EBEBF1;
 	border: none;
 }
 
@@ -220,7 +223,7 @@ section {
 }
 
 .five {
-	background-image: url('https://placehold.co/255x51')
+	background-image: url('https://placehold.co/150x50')
 }
 
 .six {
@@ -228,5 +231,5 @@ section {
 }
 
 .seven {
-	background-image: url('https://placehold.co/234x64')
+	background-image: url('https://placehold.co/50x150')
 }
